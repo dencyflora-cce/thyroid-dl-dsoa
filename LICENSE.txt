@@ -1,0 +1,10 @@
+Copyright (c) 2026 Dency Flora G and Venkataramanan C
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this reference implementation and associated documentation files, to use,
+copy, modify, and distribute the software for academic and research purposes,
+subject to proper attribution to the authors and the accompanying manuscript.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
