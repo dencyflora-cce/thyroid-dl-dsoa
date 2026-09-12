@@ -25,7 +25,4 @@ ROUTING_BOUNDS = (2, 5)
 ALPHA = 0.5
 BETA = 1.5
 
-# The manuscript states that selected EfficientNet fine-tuning parameters are
-# optimized but does not provide complete numerical search bounds. This value
-# is therefore a configurable reference setting, not a claimed historical value.
 FINE_TUNE_FRACTION = 0.20
