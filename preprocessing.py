@@ -561,3 +561,13 @@ if __name__ == "__main__":
     )
 
     print("\nPreprocessing pipeline initialized successfully.")
+
+    total_images = (
+        len(split_data["train_paths"])
+        + len(split_data["validation_paths"])
+        + len(split_data["test_paths"])
+    )
+
+    print(
+        f"Total images       : {total_images}"
+    )
