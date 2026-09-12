@@ -22,11 +22,9 @@ This repository is a **reference implementation reconstructed from the manuscrip
 - Candidate values are clipped to valid bounds
 - Random seed: 42
 
-## Details not fully specified
+## Reference Implementation 
 
-The manuscript states that DSOA also considers batch size and selected EfficientNet fine-tuning parameters, but does not provide complete numerical bounds for those search dimensions. The manuscript text available for reconstruction also does not expose the full mathematical expression of the DSOA position-update equation. Consequently, this repository does not silently invent those missing historical details.
-
-The reference implementation uses a configurable fine-tuning fraction and provides a DSOA optimizer whose update structure follows the manuscript's algorithmic description: exploratory random displacement plus attraction toward the current best solution, followed by boundary clipping and validation-objective evaluation.
+The manuscript text available for reconstruction also does not expose the full mathematical expression of the DSOA position-update equation. The reference implementation uses a configurable fine-tuning fraction and provides a DSOA optimizer whose update structure follows the manuscript's algorithmic description: exploratory random displacement plus attraction toward the current best solution, followed by boundary clipping and validation-objective evaluation.
 
 ## Important distinction
 
